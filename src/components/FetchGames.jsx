@@ -8,8 +8,16 @@ function FetchGames() {
 
   useEffect(() => {
     const fetchData = async () => {
+      const url = 'https://free-to-play-games-database.p.rapidapi.com/api/games';
+      const options = {
+        method: 'GET',
+        headers: {
+            'x-rapidapi-key': '0215cd853dmshf1bc589ec75c6b6p1cc149jsnac69ad8f3d9d',
+            'x-rapidapi-host': 'free-to-play-games-database.p.rapidapi.com'
+        }
+      };
       try {
-        const response = await fetch('../src/data/freegame.json');
+        const response = await fetch(url, options);
         const data = await response.json();
         const filteredGames = data.filter((game) => game.genre === genre);
         setGames(filteredGames);
