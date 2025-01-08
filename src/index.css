@@ -4,4 +4,35 @@
 
 :root{
 background-color:#2a293e;
+/* #2a293e */
+/* #19182b */
+}
+
+.container-eg-btn-4 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem ;
+}
+.container-eg-btn-4 .button {
+    padding:.5rem .8rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    transition: .3s;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 12px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight:600;
+}
+.container-eg-btn-4 .button-3 {
+    background-image: linear-gradient(to right, #19182b 0%, #2a293ef0 51%, #19182b 100%);
+    background-size: 200% auto;
+}
+.container-eg-btn-4 .button-3:hover {
+    background-position: right center;
+    box-shadow: 0 4px 15px 0 #2a293e;
 }
