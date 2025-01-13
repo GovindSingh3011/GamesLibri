@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
-import PlayFree_Galaxy_logo from '../assets/PlayFree_Galaxy_logo.svg'
+import GamesLibri_logo from '../assets/GamesLibri_logo.svg'
 
 function Footer() {
   return (
@@ -11,7 +11,7 @@ function Footer() {
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
               <img
-                src={PlayFree_Galaxy_logo}
+                src={GamesLibri_logo}
                 className="mr-3 h-32"
                 alt="Logo"
               />

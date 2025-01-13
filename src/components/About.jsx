@@ -7,9 +7,9 @@ function About() {
                     <img src={aboutImage} className='rounded-2xl'/>
                 </div>
                 <div className="md:w-1/2 md:ml-10">
-                    <h2 className="text-4xl font-bold mb-8">About <span className="text-yellow-500">PlayFree Galaxy</span></h2>
+                    <h2 className="text-4xl font-bold mb-8">About <span className="text-yellow-500">GamesLibri</span></h2>
                     <p className="text-lg mb-6">
-                        PlayFree Galaxy is your go-to resource for discovering amazing free games.
+                        GamesLibri is your go-to resource for discovering amazing free games.
                         We help gamers find the best free titles across all platforms,
                         saving you time and effort in your search.
                     </p>

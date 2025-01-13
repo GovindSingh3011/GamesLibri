@@ -1,15 +1,15 @@
-# PlayFree Galaxy
+# GamesLibri
 
-PlayFree Galaxy is a React-based web application designed to help users discover amazing free games. It provides a seamless interface to explore a curated list of games with detailed information and responsive design for an optimal user experience.
+GamesLibri is a React-based web application designed to help users discover amazing free games. It provides a seamless interface to explore a curated list of games with detailed information and responsive design for an optimal user experience.
 
 ## Demo
 
-Explore the live application here: [PlayFree Galaxy Demo](https://play-free-galaxy.vercel.app/)
+Explore the live application here: [GamesLibri Demo](https://gameslibri.vercel.app/)
 
 ## Screenshots
 
 ### Home Page
-![image](https://github.com/user-attachments/assets/b51297ab-c81d-4208-955f-f56a0520b8a1)
+![image](./public/website%20demo.png)
 
 ## Features
 
@@ -31,13 +31,13 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/GovindSingh3011/PlayFree_Galaxy.git
+   git clone https://github.com/GovindSingh3011/GamesLibri.git
    ```
 
 2. **Navigate to the Project Directory**:
 
    ```bash
-   cd PlayFree_Galaxy
+   cd GamesLibri
    ```
 
 3. **Install Dependencies**:

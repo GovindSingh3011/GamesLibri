@@ -1,6 +1,6 @@
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useState,useEffect } from 'react';
-import PlayFree_Galaxy_logo from '../assets/PlayFree_Galaxy_logo.svg'
+import GamesLibri_logo from '../assets/GamesLibri_logo.svg'
 
 function Header() {
 
@@ -19,7 +19,7 @@ function Header() {
         <div className="flex justify-between items-center mx-auto">
           <Link to="/" className="flex items-center">
             <img
-              src={PlayFree_Galaxy_logo}
+              src={GamesLibri_logo}
               className="h-16"
               alt="Logo"
             />
