@@ -84,7 +84,7 @@ function Footer() {
 
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-white sm:text-center">
-            Copyright © 2024 <a href="https://govindsingh.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline font-bold">Govind Singh</a> All Rights Reserved.
+            Copyright © 2025 <a href="https://govindsingh.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline font-bold">Govind Singh</a> | Licensed under <a href="LICENSE" className="hover:underline font-bold">MIT License</a>
           </span>
 
         </div>
